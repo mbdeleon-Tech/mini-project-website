@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact SDG Philippines to partner, volunteer, or learn more about our sustainable development projects.">
+    <title>Contact Us - SDG Philippines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo-container">
+                <div class="logo-circle"></div>
+                SDG Philippines
+            </div>
+            <div class="time-pill" id="currentTime">Loading time...</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-page">
+            <div class="container">
+                <h1>Get in Touch</h1>
+                <p>Have questions about our SDG initiatives in the Philippines? Want to get involved or partner with us? We'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="grid contact-grid">
+                
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Reach out to us through any of the following channels. We typically respond within 24-48 hours.</p>
+                    
+                    <div class="info-item">
+                        <i>📧</i>
+                        <div><strong>Email</strong><br>info@sdgphilippines.org</div>
+                    </div>
+                    <div class="info-item">
+                        <i>📞</i>
+                        <div><strong>Phone</strong><br>Manila: +63 (2) 8123-4567</div>
+                    </div>
+                    <div class="info-item">
+                        <i>📍</i>
+                        <div><strong>Head Office</strong><br>SDG Philippines Center, Ayala Avenue, Makati City, Philippines</div>
+                    </div>
+
+                    <div class="office-hours">
+                        <strong>Office Hours (Philippine Time)</strong><br><br>
+                        Monday - Friday: 8:00 AM - 5:00 PM<br>
+                        Saturday: 9:00 AM - 1:00 PM<br>
+                        Sunday & Holidays: Closed
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" placeholder="Juan Dela Cruz" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" placeholder="juan.delacruz@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" placeholder="+63 912 345 6789">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="donation">Donation Inquiry</option>                               
+                                <option value="feedback">Feedback</option>                                
+                                <option value="inquiry">General Inquiry</option>
+                                <option value="volunteer">Volunteer Inquiry</option>
+                                <option value="partner">Partnership Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-solid">Send Message</button>
+                        <small style="display:block; margin-top:10px; color:#6b7280;">* Required fields</small>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-placeholder">
+                [ Map placeholder - In production, integrate with Google Maps or similar service ]
+            </div>
+        </section>
+    </main>
+
+     <footer>
+        <div class="container">
+            <div class="grid footer-grid">
+                <div>
+                    <h4>About SDG Philippines</h4>
+                    <p>Working together to achieve the United Nations Sustainable Development Goals for a better Philippines and a sustainable future for all Filipinos.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul style="list-style:none;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Info</h4>
+                    <p>Email: info@sdgphilippines.org<br>Phone: +63 (2) 8123-4567<br>Address: Makati City, Metro Manila, Philippines</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 SDG Philippines Initiative. All rights reserved. | Built with passion for a sustainable Philippines.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
